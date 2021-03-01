@@ -1,0 +1,10 @@
+.stat_name {
+  list-style: none;
+}
+.stat_item {
+  font-style: italic;
+  font-size: medium;
+}
+.stat_item:not(:last-child) {
+  margin-bottom: 5px;
+}

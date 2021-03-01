@@ -1,0 +1,17 @@
+.feedbackBtn {
+  background-color: black;
+  color: white;
+
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+
+  padding: 5 px;
+  margin-bottom: 10 px;
+}
+.feedbackBtn :not(:last-child) {
+  margin-right: 10px;
+}
