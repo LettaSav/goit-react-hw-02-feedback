@@ -1,4 +1,12 @@
 .title {
   font-style: oblique;
   font-size: large;
+  margin-bottom: 50px;
+  margin: auto;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 15px;
 }

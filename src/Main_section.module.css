@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f69a73;
+}
+.main_contatiner {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 0;
+  background: white;
+  border-radius: 30px;
+}

@@ -3,6 +3,7 @@ import FeedbackOptions from './Components/FeedbackOptions/Feedbackoptions';
 import Section from './Components/Section/Section';
 import Notification from './Components/Notifictions/Notification';
 import { useState } from 'react';
+import style from './Main_section.module.css';
 
 function App() {
   const [good, setGood] = useState(0);
@@ -33,7 +34,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className={style.main_contatiner}>
       <Section title="Please leave feedback">
         <FeedbackOptions
           options={['good', 'neutral', 'bad']}
@@ -53,7 +54,7 @@ function App() {
           />
         </Section>
       )}
-    </>
+    </div>
   );
 }
 

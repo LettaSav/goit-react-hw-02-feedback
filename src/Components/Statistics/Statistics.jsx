@@ -1,5 +1,7 @@
 import styles from './Statistics.module.css';
 
+import PropTypes from 'prop-types';
+
 const StatisticsHandler = ({ good, neutral, bad, total, totalPositive }) => {
   return (
     <ul className={styles.stat_name}>
@@ -11,5 +13,13 @@ const StatisticsHandler = ({ good, neutral, bad, total, totalPositive }) => {
     </ul>
   );
 };
-
+StatisticsHandler.propTypes = {
+  stats: PropTypes.shape({
+    good: PropTypes.number.isRequired,
+    neutral: PropTypes.number.isRequired,
+    bad: PropTypes.number.isRequired,
+    total: PropTypes.number.isRequired,
+    totalPositive: PropTypes.number.isRequired,
+  }),
+};
 export default StatisticsHandler;
