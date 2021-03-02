@@ -12,6 +12,7 @@
 
   margin-top: 10px;
   outline: none;
+  cursor: pointer;
 }
 .feedbackBtn:hover,
 .feedbackBtn:active {
